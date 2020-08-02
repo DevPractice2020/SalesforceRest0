@@ -48,7 +48,7 @@ namespace SalesforceRest
 
         private static async Task DoAuthentication()
         {
-            int li = 0;
+            int lip = 0;
             HttpClient authClient = new HttpClient();
             string sfdcConsumerKey = "3MVG9YDQS5WtC11qpsEUcIwI0oDrzHxC_yppJXYPzHJ1H8WYOkYyIsbrMOEpvOghvQ9PR_M0TBZP2K.53rV4Q";
             string sfdcConsumerSecret = "9014630030068766543";
